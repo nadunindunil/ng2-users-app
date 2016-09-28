@@ -11,9 +11,4 @@ const routes: Routes = [
   // { path: '**', component: PageNotFoundComponent }
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  providers: []
-})
-export class Ng2TestRoutingModule { }
+export const routing = RouterModule.forRoot(routes);

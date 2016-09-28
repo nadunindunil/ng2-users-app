@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UsersComponent } from './users/users.component';
 import { HomeComponent } from './home/home.component';
-
+import { Routes, RouterModule } from '@angular/router';
+import { routing } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,9 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
