@@ -6,9 +6,9 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   // { path: 'groups', component: GroupComponent },
   { path: 'users', component: UsersComponent },
-  { path: '', component: HomeComponent }
+  { path: '', component: HomeComponent },
   // ,
-  // { path: '**', component: PageNotFoundComponent }
+  { path: '**', component: HomeComponent }
 ];
 
 export const routing = RouterModule.forRoot(routes);
