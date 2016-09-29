@@ -9,13 +9,15 @@ import { UsersComponent } from './users/users.component';
 import { HomeComponent } from './home/home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { routing } from './app-routing.module';
+import { BindComponent } from './bind/bind.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     UsersComponent,
-    HomeComponent
+    HomeComponent,
+    BindComponent
   ],
   imports: [
     BrowserModule,
