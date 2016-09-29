@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { Routes, RouterModule } from '@angular/router';
 import { routing } from './app-routing.module';
 import { BindComponent } from './bind/bind.component';
+import { DirectivesComponent } from './directives/directives.component';
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { BindComponent } from './bind/bind.component';
     NavBarComponent,
     UsersComponent,
     HomeComponent,
-    BindComponent
+    BindComponent,
+    DirectivesComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
